@@ -46,6 +46,18 @@ go install github.com/bensadeh/circumflex/cmd/clx@latest
 go run ./cmd/clx
 ```
 
+## Debian package build files
+
+This repository now includes lightweight Debian packaging files for `amd64` and `arm64`.
+They are intended for local packaging/release workflows and do not require `debhelper`.
+
+```console
+scripts/build-deb.sh amd64
+scripts/build-deb.sh arm64
+```
+
+The resulting package will be written to `dist/deb/`.
+
 ## Features
 
 ### Comment section

@@ -1,0 +1,12 @@
+Package: circumflex
+Version: __VERSION__
+Section: utils
+Priority: optional
+Architecture: __ARCH__
+Maintainer: circumflex maintainers <opensource@local.invalid>
+Homepage: https://github.com/bensadeh/circumflex
+Depends: libc6
+Description: Command line tool for browsing Hacker News in your terminal
+ circumflex is a terminal application for browsing Hacker News,
+ reading comment threads, and opening articles in a reader-friendly view.
+ This package installs the clx binary and man page.
